@@ -37,5 +37,5 @@ class TestMethods {
 }
 
 class Constants{
-    public static final RateLimiter rl = RateLimiter.create(1.0);
+    public static final RateLimiter rl = RateLimiter.create(5.0);
 }
